@@ -16,12 +16,10 @@ Finally, I show how uncertainty in the model parameters propagates into the pred
 
 ```math
 $$
-p(y^* = 1 \mid y, x^*) = \int p(y^* = 1 \mid x^*, \beta)\, p(\beta \mid y)\, d\beta.
-$$
+p(y^* = 1 \mid y, x^*) = \int p(y^* = 1 \mid x^*, \beta)\, p(\beta \mid y)\, d\beta\\
 
-where
+\text{where} \\
 
-$$
 p(\beta \mid \ y, X_{train}) &= \frac{p(y \mid \beta, X_{train}) p(\beta)}{{p(y)}}.
 $$
 ```
