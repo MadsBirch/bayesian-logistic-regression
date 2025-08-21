@@ -15,8 +15,7 @@ Finally, I show how uncertainty in the model parameters propagates into the pred
 
 $$
 \begin{aligned}
-\text{logit}\, p(y=1\mid x,\beta) &= \beta^\top x \\
-p(y=1\mid x,\beta) &= \sigma(\beta^\top x)
+\text{logit}\, p(y=1\mid x,\beta) &= \beta^\top x p(y=1\mid x,\beta) &= \sigma(\beta^\top x)
 \end{aligned}
 $$
 
