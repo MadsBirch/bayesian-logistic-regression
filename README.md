@@ -19,5 +19,6 @@ p(y^*=1 \mid \ y, x^*) = \int p(y^*=1 \mid \ x^*) p(\beta \mid y) d \beta,
 \end{aligned}
 $$
 
+
 ### References:
 Titatnic dataset was dowlaoaded from Kaggle: https://www.kaggle.com/datasets/yasserh/titanic-dataset
