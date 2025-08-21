@@ -14,10 +14,9 @@ I illustrate the role of the prior and likelihood distributions and their effect
 Finally, I show how uncertainty in the model parameters propagates into the predictive distribution. The predictive distribution for a new data point $(x^*, y^*)$ is obtained by integrating over the posterior distribution of the model parameters, thereby incorporating parameter uncertainty:
 
 $$
-\begin{aligned}
-p(y^*=1 \mid \ y, x^*) = \int p(y^*=1 \mid \ x^*) p(\beta \mid y) d \beta,
-\end{aligned}
+p(y^* = 1 \mid y, x^*) = \int p(y^* = 1 \mid x^*, \beta)\, p(\beta \mid y)\, d\beta
 $$
+
 
 
 ### References:
