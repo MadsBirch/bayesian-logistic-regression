@@ -13,12 +13,9 @@ I show the role of the prior and likelihood distribbution and their effect on th
 ### Parameter and prediction uncertainty
 Finally, I show how the uncertainty w.r.t. to the model parameters is carried all the way through to the predictive distribution. The predictive distribution for new data point $(x^*, y^*)$ is given by the weighted sum over the posterior distribution of the model parameters and thereby contains the uncertainty w.r.t. model parameters
 
-$$
 \begin{align}
 p(y^*=1 \mid \ y, x^*) &= \int p(y^*=1 \mid \ x^*) p(\beta \mid y) d \beta,
 \end{align}
-$$
-
 
 ### References:
 Titatnic dataset was dowlaoaded from Kaggle: https://www.kaggle.com/datasets/yasserh/titanic-dataset
