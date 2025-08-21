@@ -15,7 +15,7 @@ Finally, I show how uncertainty in the model parameters propagates into the pred
 
 $$
 \begin{aligned}
-p(y^*=1 \mid \ y, x^*) &= \int p(y^*=1 \mid \ x^*) p(\beta \mid y) d \beta,
+p(y^*=1 \mid \ y, x^*) = \int p(y^*=1 \mid \ x^*) p(\beta \mid y) d \beta,
 \end{aligned}
 $$
 
