@@ -22,7 +22,7 @@ $$
 
 where 
 
-$`p(\beta \mid \ y, X_{train}) &= \frac{p(y \mid \beta, X_{train}) p(\beta)}{{p(y)}}.`$
+p(\beta \mid \ y, X_{train}) &= \frac{p(y \mid \beta, X_{train}) p(\beta)}{{p(y)}}.
 
 
 ### References:
