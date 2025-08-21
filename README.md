@@ -11,9 +11,9 @@ This problem can be solved by imposing a small amount of regularization or by sp
 I illustrate the role of the prior and likelihood distributions and their effect on the posterior distribution, under different prior strengths and varying dataset sizes.
 
 ### Parameter and prediction uncertainty
-Finally, I show how uncertainty in the model parameters propagates into the predictive distribution. The predictive distribution for a new data point $(x^, y^)$ is obtained by integrating over the posterior distribution of the model parameters, thereby incorporating parameter uncertainty:
+Finally, I show how uncertainty in the model parameters propagates into the predictive distribution. The predictive distribution for a new data point $(x^*, y^*)$ is obtained by integrating over the posterior distribution of the model parameters, thereby incorporating parameter uncertainty:
 
-$$ p(y^* = 1 \mid y, x^*) = \int p(y^* = 1 \mid x^*, \beta)\, p(\beta \mid y)\, d\beta $$
+$p(y^* = 1 \mid y, x^*) = \int p(y^* = 1 \mid x^*, \beta)\, p(\beta \mid y)\, d\beta$
 
 ### References:
 Titatnic dataset was dowlaoaded from Kaggle: https://www.kaggle.com/datasets/yasserh/titanic-dataset
